@@ -1,0 +1,61 @@
+
+.h-scroll {
+    height: 90vh; /* %-height of the viewport */
+    overflow-y: scroll;
+}
+
+.feed{
+  margin-left: 10%;
+}
+
+.test{
+
+  margin-top: 2.5%;
+
+}
+
+.test1{
+
+  margin-bottom: 2%;
+  min-width: 35%;
+
+}
+
+.user_picture{
+	margin-left: 1%;
+  	margin-top: 7.5%;
+  	margin-bottom: 2.5%;
+  	font-size: 50px;
+}
+
+.user_id{
+
+  	margin-top: 1%;
+  	margin-bottom: 2.5%;
+}
+
+.account_form{
+	max-width: 85%;
+	min-height: 200px;
+
+
+}
+.accountHeader{
+	display: flex; 
+	flex-direction: row; 
+	margin-top: 8%;
+
+}
+
+.paragraphe{
+	font-size: 18px;
+}
+
+.Account_setting{
+	height : 100vh;
+}
+
+.subTitle{
+	color: #60a5e6;
+	font-size: 35px;
+}
