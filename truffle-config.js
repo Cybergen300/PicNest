@@ -1,7 +1,7 @@
 require('babel-register');
 require('babel-polyfill');
 const HDWalletProvider = require('@truffle/hdwallet-provider')
-mnemonic = "YOUR MNEMONIC"
+mnemonic = "barrel print sniff hammer vivid parrot into adjust large disagree atom animal"
 
 
 module.exports = {
@@ -14,7 +14,7 @@ module.exports = {
 
     live: {
       provider: () => {
-          return new HDWalletProvider(mnemonic, "YOUR INFURA KEY")// Url to an Ethereum Node
+          return new HDWalletProvider(mnemonic, "https://kovan.infura.io/v3/cdc987ef7f6f46c99606585cc061b6af")// Url to an Ethereum Node
       },
 
       gas: 5000000,
