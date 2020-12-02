@@ -8,17 +8,17 @@ Update : If you have metamask on your web browser you can now access directly th
 
 However if you have already a basic blockchain dev environment :
 
-metamask account
-Node.js
-truffle
-Infura
-Ganache
-
+    metamask account
+    Node.js
+    truffle
+    Infura
+    Ganache
+    
 I'll make sure that at any time you're able to run the Dapp locally on your default browser by following these 3 easy steps :
 
-open console
-run "npm install"
-run "truffle migrate --reset"
-run "npm start"
+    open console
+    run "npm install"
+    run "truffle migrate --reset"
+    run "npm start"
 
 n.b. Don't forget to set up your Metamask account on local dev at first as the migration we'll be done by default on the local env.
